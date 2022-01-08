@@ -21,7 +21,7 @@ services:
       - ME_CONFIG_MONGODB_ADMINPASSWORD=password
       - ME_CONFIG_MONGODB_SERVER=mongodb
   my-app:
-    image: my-app:2.0
+    image: 982854447017.dkr.ecr.ap-south-1.amazonaws.com/my-app:2.0
     ports:
       - 3000:3000
     environment:
